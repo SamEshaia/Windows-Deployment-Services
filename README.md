@@ -80,3 +80,11 @@ Before you move ahead please keep in mind all the requirements listed below are 
 <p>For this guide, you will need to acquire the ISO file for Windows Server 2019 or 2022 Evaluation and Windows 10. You can acquire these from Microsoft’s Website or to make it easy, I have provided them in a zip file which you can download: <a href="https://drive.google.com/file/d/1-j_OHnORe-c82FvqJEoEDpGFD-aTVZh7/view?usp=drive_link
 ">https://drive.google.com/file/d/1-j_OHnORe-c82FvqJEoEDpGFD-aTVZh7/view?usp=drive_link</a></p>
 <img width="800" height="500" alt="Step 4f" src="https://github.com/SamEshaia/Windows-Deployment-Services/assets/124312452/94eaeef3-8770-4fc9-b557-5da30deb3e4e"/>
+
+<h3>Step 6:</h3>
+<p>Once you have acquired the files (Make sure to extract them into a folder first), open the “Server-2019-Eval” ISO file. Click the “Sources” folder. In the sources folder, we want to copy “boot.wim” and “install.wim” over to C:\RemoteInstall. You can do this by opening another file explorer tab in navigating to “RemoteInstall” under the C:\ drive.</p>
+<img width="800" height="500" alt="Step 4f" src="https://github.com/SamEshaia/Windows-Deployment-Services/assets/124312452/fd9b006c-c7e3-4cb7-a07c-00fc6b774abb"/>
+<p>The, because we don’t want to forget what they are, we are going to rename “boot.wim” to “Server2019Boot.wim” and “install.wim” to “Server-2019-Eval.wim”.</p>
+<img width="800" height="500" alt="Step 4f" src="https://github.com/SamEshaia/Windows-Deployment-Services/assets/124312452/f0b737c3-2929-4fe2-83cc-24cf2e8067d8"/>
+<p>After you have added those to the RemoteInstall folder, navigate back to the WDS windows and right click on “Boot images”. Once menu options pop up, click add “Add Boot Image…"</p>
+<p>A window will pop up where you it will ask you to locate a file. Click “Browse…”</p>
