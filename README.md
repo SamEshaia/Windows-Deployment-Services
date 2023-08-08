@@ -45,6 +45,6 @@
   <li>A few dependencies will appear; click the "Add Features" button.</li>
   <li>Click "Next" two more times until you reach the Role Services section under WDS.</li>
   <li>Ensure that "Deployment Server" and "Transport Server" are checked, and then click "Next."</li>
-  <li>Make sure the install looks like the image below and click close.</li>
+  <li>•	Make sure the install looks like the image below and click Install. Then when the install is finished click closed.</li>
 </ul>
 <img width="800" height="500" alt="Screenshot 2023-08-07 at 8 42 48 PM" src="https://github.com/SamEshaia/Windows-Deployment-Services/assets/124312452/e40f87ae-fe50-4988-a54e-4e243e522c50"/>
